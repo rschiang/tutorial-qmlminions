@@ -8,6 +8,7 @@ Rectangle {
     color: "red"
 
     property string text
+    signal clicked
 
     Text {
         anchors.centerIn: parent
@@ -24,6 +25,7 @@ Rectangle {
             if (resetTimer.running)
                 resetTimer.stop()
             resetTimer.start()
+            buttonRect.clicked()
         }
     }
 

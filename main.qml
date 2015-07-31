@@ -22,6 +22,10 @@ ApplicationWindow {
             anchors.bottom: parent.bottom
             anchors.margins: 16
             text: "開始"
+
+            onClicked: {
+                console.log("遊戲開始！")
+            }
         }
 
         RedButton {
@@ -30,6 +34,10 @@ ApplicationWindow {
             anchors.verticalCenter: button1.verticalCenter
             anchors.leftMargin: 16
             text: "暫停"
+
+            onClicked: {
+                console.log("遊戲暫停！")
+            }
         }
 
         RedButton {
@@ -38,6 +46,10 @@ ApplicationWindow {
             anchors.verticalCenter: button1.verticalCenter
             anchors.leftMargin: 16
             text: "結束"
+
+            onClicked: {
+                console.log("遊戲結束！")
+            }
         }
 
         Image {
