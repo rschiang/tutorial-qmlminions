@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>RedButton.qml</file>
+        <file>minions.jpg</file>
+    </qresource>
+</RCC>
